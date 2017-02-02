@@ -1,0 +1,19 @@
+schedule = {
+  1:"Bradford Prep",
+  2:"North Meck",
+  3:"Pine Lake",
+  4:"Thomas Jefferson",
+  5:"Alleghany",
+  6:"Cherryville",
+  7:"Bessemer City",
+  8:"Carolina International",
+  9:"Lincloln Charter",
+  10: "West Montgomery"
+  }
+def gamefinder():
+  gameswon = int(input("How many games have you won? "))
+  gameslost = int(input("How many games have you lost? "))
+  gamesplayed = gameswon + gameslost
+  winpercentage= float(((gamesplayed)/(gameswon))*100)
+  return str(winpercentage)
+  
