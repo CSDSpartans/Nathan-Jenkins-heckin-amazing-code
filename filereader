@@ -1,0 +1,32 @@
+name_of_mydocument = 'file1.py'
+
+file_input = open(name_of_mydocument, 'r')     #open file for reading
+
+lineNum = 1
+
+                                     #read the first few lines
+
+line = file_input.readline()
+
+line = file_input.readline()
+
+line = file_input.readline()
+
+
+
+                                     # This reads the first paragraph
+
+
+
+                                     # \n - indicates blank line
+
+while line != '':                  # while not a blank line
+
+    print(str(lineNum) + ") " + line)             
+
+    line = file_input.readline()
+    lineNum = lineNum + 1
+
+
+
+file_input.close()
