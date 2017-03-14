@@ -42,7 +42,7 @@ line = file_input.readline()
 
 line = file_input.readline()
 
-stanzaNum = 0
+stanzaNum = 1
 
 
 
@@ -65,3 +65,4 @@ while line != '':                  # while not a blank line
     print(lineNum, line, end = '')  
 
     line = file_input.readline()
+print ("\n\n The number of stanzas in the poem is " + str(stanzaNum) + ".")
