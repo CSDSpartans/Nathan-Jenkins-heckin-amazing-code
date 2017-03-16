@@ -1,4 +1,3 @@
-
 name_of_mydocument = 'tuesdayafternoon.txt'
 
 
@@ -33,7 +32,7 @@ total_lines_in_file = 0
 
 line = file_input.readline()
 
-print(line)
+firstline = line
 
 total_lines_in_file = total_lines_in_file + 1
 
@@ -49,7 +48,7 @@ total_lines_in_file = total_lines_in_file + 1
 
 line = file_input.readline()
 
-print(line)
+print('     ' + firstline + "\n" + "     " + line)
 total_lines_in_file = total_lines_in_file + 1
 
 
@@ -88,7 +87,7 @@ line = file_input.readline()
 
 
 stanza_counter = 0
-
+song_line_counter = 0
 
 
 
@@ -112,7 +111,7 @@ while line != '':                  # while not a blank line
 
 
     stanza_counter = stanza_counter + 1
-
+    total_lines_in_file = total_lines_in_file + 1
     print()
 
     line = file_input.readline()
