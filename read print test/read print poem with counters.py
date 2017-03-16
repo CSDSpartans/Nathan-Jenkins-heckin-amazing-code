@@ -130,7 +130,7 @@ while line != '':                  # while not a blank line
 
     line = file_input.readline()
 line = file_input.readline()
-print ("\n\n-- End of Song ---")
+print ("\n\n\n-- End of Song ---")
 print("Total number of lines in the song are: " + str(song_line_counter) + ".")
 print ("Total number of stanzas in this song are: " + str(stanza_counter) + ".")
 print ("Total number of lines in this file are: " + str(total_lines_in_file) + ".")
