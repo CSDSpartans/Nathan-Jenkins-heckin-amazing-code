@@ -86,8 +86,8 @@ line = file_input.readline()
 
 
 
-stanza_counter = 0
-song_line_counter = 0
+stanza_counter = 1
+song_line_counter = 1
 
 
 
