@@ -30,7 +30,7 @@ while line != '':                  # while not a blank line
     song_line_counter = song_line_counter + 1
 
     if song_line_counter < 10:
-        print(str(song_line_counter)+ ')   ', line, end = '')
+      print(str(song_line_counter)+ ')   ', line, end = '')
     else:
 
       print(str(song_line_counter) + ')  ', line, end = '')
