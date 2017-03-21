@@ -91,6 +91,6 @@ print ("\n\n\n-- End of Song ---")
 
 print("Total number of lines in the song are: " + str(song_line_counter) + ".")
 print ("Total number of stanzas in this song are: " + str(stanza_counter) + ".")
-print("The song \"Tuesday Afternoon\" first appeared on the album \033[4mDays of Future Passed\033[0m in 1967.")
+print("The song \"Tuesday Afternoon\" first appeared on the album \033[3mDays of Future Passed\033[0m in 1967.")
 print ("This song first appeared in the album 'Days of Future Passed' in 1968.")
 print ("The Moody Blues members are Mike Lodge, Graeme Edge, Justin Hayward, Ray Thomas, and John Lodge.")
